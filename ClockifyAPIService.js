@@ -29,7 +29,7 @@ const options = {
 };
 
 // Schedule the task to run at 6 PM every day 18
-cron.schedule('10 11 * * *', () => {
+cron.schedule('25 11 * * *', () => {
     const req = https.request(options, (res) => {
         let responseData = '';
 
